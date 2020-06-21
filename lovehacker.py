@@ -3,10 +3,12 @@
 # encoding base64 step by step
 # copyright @BlackMafia
 
-print '\nBlackMafia'
-print '\nWhatsApp'
-print '\n03094161457'
-
+print '\n=========================='
+print '\n=========BlackMafia======='
+print '\n==========WhatsApp========'
+print '\n========03094161457======='
+print '\n=========================='
+print '\n**************************'
 black = raw_input('Apni script add karain : ')
 
 if len(black)%3 == 2:
