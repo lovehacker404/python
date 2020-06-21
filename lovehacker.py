@@ -13,11 +13,11 @@ print '\n************************************************'
 black = raw_input('Apni script add karain : ')
 
 if len(black)%3 == 2:
-	padding = '='
+	lovehacker = '='
 elif len(black)%3 == 1:
-	padding = '=='
+	lovehacker = '=='
 else:
-	padding = ''
+	lovehacker = ''
 
 a = 'Encoding Base64  BlackMafia "' + black + '"'
 print '*'*len(a)
@@ -41,8 +41,8 @@ print x
 k = '-'.join(x[i:i+6] for i in range(0, len(x), 6))
 print '\n' + k
 
-if padding != '':
-	print '\nis lafz ki lambai  3 sy zayada ni ha , is waqat tak add ho gi "%s" jabtak %s is cracter ki adding ni ho gi'%(padding,len(padding))
+if lovehacker != '':
+	print '\nis lafz ki lambai  3 sy zayada ni ha , is waqat tak add ho gi "%s" jabtak %s is cracter ki adding ni ho gi'%(lovehacker,len(lovehacker))
 	n = ', adding k sath koi problum ho to whatsapp num 03094161457'
 else:
 	n = ''
@@ -69,4 +69,4 @@ for c in k.split('-'):
 	print '%s = %s      = %s'%(z , m , j)
 	hsl += j
 
-print '\nResult encoding base64%s : %s'%(n,hsl+padding)
+print '\nResult encoding base64%s : %s'%(n,hsl+lovehacker)
