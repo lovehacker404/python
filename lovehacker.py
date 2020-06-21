@@ -13,7 +13,7 @@ else:
 	padding = ''
 
 a = 'Encoding Base64  BlackMafia "' + black + '"'
-print '♡BlackMafia♡'*len(a)
+print '======BlackMafia======'*len(a)
 print a
 
 
