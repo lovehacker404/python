@@ -3,6 +3,10 @@
 # encoding base64 step by step
 # copyright @BlackMafia
 
+print '\nBlackMafia'
+print '\nWhatsApp'
+print '\n03094161457'
+
 black = raw_input('Apni script add karain : ')
 
 if len(black)%3 == 2:
@@ -25,7 +29,7 @@ for i in black:
 	b += str(bin(ord(i))[2:].zfill(8)+ ' ')
 
 print '\n Binari ki line "%s" ha "%s"'%(black,b[:-1])
-print '\n Binari ( 1 lambi laine) dari "%s" ha "%s"'%(black,(b).replace(' ',''))
+print '\n Binari ( 1 lambi laine) sy "%s" ha "%s"'%(black,(b).replace(' ',''))
 
 print '\nProces per 6 bit, har 6 bit ki namadghi 1  base64'
 x = (b).replace(' ','')
@@ -35,8 +39,8 @@ k = '-'.join(x[i:i+6] for i in range(0, len(x), 6))
 print '\n' + k
 
 if padding != '':
-	print '\nis lafz ki lambai  3 sy zayada ni ha , is waqat tak add ho gi "%s" jabtak %s is karakter ki adding ni ho gi'%(padding,len(padding))
-	n = ', adding k sath BlackMafia ka thanku b kar do chawlo'
+	print '\nis lafz ki lambai  3 sy zayada ni ha , is waqat tak add ho gi "%s" jabtak %s is cracter ki adding ni ho gi'%(padding,len(padding))
+	n = ', adding k sath koi problum ho to whatsapp num 03094161457'
 else:
 	n = ''
 
