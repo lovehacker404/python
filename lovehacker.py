@@ -1,6 +1,6 @@
 #!usr/bin/python
 
-# encoding base64 step by step ab tara kya ho ga kalia😂
+# encoding base64 step by step
 # copyright @BlackMafia
 
 black = raw_input('input black : ')
