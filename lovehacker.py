@@ -3,12 +3,13 @@
 # encoding base64 step by step
 # copyright @BlackMafia
 
-print '\n*****=======================================*******'
-print '\n*****================BlackMafia=============*******'
-print '\n*****=================WhatsApp==============*******'
-print '\n*****================03094161457============*******'
-print '\n*****=======================================*******'
-print '\n***************************************************'
+print '\n*****====================================*******'
+print '\n*****=============BlackMafia=============*******'
+print '\n*****==============WhatsApp==============*******'
+print '\n*****=============03094161457============*******'
+print '\nHelo Frends Script Main khud Hide Ni karta Apni '
+print '\nMain Chahta Hon Ap log B khuch Sekh lo'
+print '\n************************************************'
 black = raw_input('Apni script add karain : ')
 
 if len(black)%3 == 2:
