@@ -13,18 +13,18 @@ else:
 	padding = ''
 
 a = 'Encoding Base64  BlackMafia "' + black + '"'
-print '*BlackMafia*'*len(a)
+print '♡BlackMafia♡'*len(a)
 print a
 
 
-print '\nStep by step binery value lain'
+print '\nStep by step binary value lain'
 
 b = ''
 for i in black:
 	print '%s, binari: %s, ascii: %s'%(i, bin(ord(i))[2:].zfill(8),ord(i))
 	b += str(bin(ord(i))[2:].zfill(8)+ ' ')
 
-print '\n Binari ki lain "%s" ha "%s"'%(black,b[:-1])
+print '\n Binari ki line "%s" ha "%s"'%(black,b[:-1])
 print '\n Binari ( 1 lambi laine) dari "%s" ha "%s"'%(black,(b).replace(' ',''))
 
 print '\nProces per 6 bit, har 6 bit ki namadghi 1  base64'
@@ -36,7 +36,7 @@ print '\n' + k
 
 if padding != '':
 	print '\nis lafz ki lambai  3 sy zayada ni ha , is waqat tak add ho gi "%s" jabtak %s is karakter ki adding ni ho gi'%(padding,len(padding))
-	n = ', adding k sath'
+	n = ', adding k sath BlackMafia ka thanku b kar do chawlo'
 else:
 	n = ''
 
