@@ -3,7 +3,7 @@
 # encoding base64 step by step
 # copyright @BlackMafia
 
-black = raw_input('input black : ')
+black = raw_input('Apni script add karain : ')
 
 if len(black)%3 == 2:
 	padding = '='
@@ -13,7 +13,7 @@ else:
 	padding = ''
 
 a = 'Encoding Base64  BlackMafia "' + black + '"'
-print '-'*len(a)
+print '*BlackMafia*'*len(a)
 print a
 
 
