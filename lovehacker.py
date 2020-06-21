@@ -3,7 +3,7 @@
 # encoding base64 step by step 
 # copyright @BlackMafia
 
-black = raw_input('masukan black : ')
+black = raw_input('input black : ')
 
 if len(black)%3 == 2:
 	padding = '='
